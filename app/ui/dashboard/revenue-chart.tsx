@@ -40,7 +40,7 @@ export default async function RevenueChart({
               <p key={label}>{label}</p>
             ))}
           </div>
-
+      
           {revenue.map((month) => (
             <div key={month.month} className="flex flex-col items-center gap-2">
               <div
